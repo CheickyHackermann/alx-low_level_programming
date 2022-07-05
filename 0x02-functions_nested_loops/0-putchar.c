@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** main - printsn _putchar, followed with a new line
+/* main - printsn _putchar, followed with a new line
  * Return: Always 0 (Succes)
  */
 int main(void)
@@ -17,5 +17,5 @@ int main(void)
 	putchar('r');
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
