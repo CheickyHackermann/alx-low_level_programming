@@ -5,22 +5,22 @@
  * main - prints the alphabet in lowercase, and then in uppercase
  *
  * return - Always 0 (succes)
- */ 
+ */
 
-int main (void)
+int main(void)
 {
 	char alp;
-	
+
 	alp = 'a';
-	while(alp <= 'z')
+	while (alp <= 'z')
 	{
 		putchar (alp);
 		alp++;
-		
+	
 	}
 	alp = 'A';
 
-	while(alp <= 'Z')
+	while (alp <= 'Z')
 	{
 		putchar (alp);
 		alp++;
@@ -28,5 +28,5 @@ int main (void)
 
 	putchar('\n');
 	return (0);
-									                                                                                        
+
 }
