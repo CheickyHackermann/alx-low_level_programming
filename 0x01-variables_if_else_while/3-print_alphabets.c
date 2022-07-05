@@ -3,8 +3,8 @@
 
 /**
  * main - prints the alphabet in lowercase, and then in uppercase
- *
- * return - Always 0 (succes)
+ * followed by a new line
+ * Return: Always 0 (succes)
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar (alp);
 		alp++;
-	
+
 	}
 	alp = 'A';
 
